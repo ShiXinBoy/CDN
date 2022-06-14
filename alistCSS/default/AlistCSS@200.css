@@ -1,0 +1,56 @@
+
+* {
+	color: var(--FT_color);
+}
+.chakra-ui-light{
+    background-image: url(https://www.dmoe.cc/random.php) !important;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+.root-box {
+	background: var(--BG_color_G);
+    margin: 0 !important;
+	padding: var(--BG_padding_G) !important;
+    position: relative;
+	margin-top: var(--BG_margin_T_B) !important;
+	margin-bottom: var(--BG_margin_T_B) !important;
+	border-radius: var(--BG_radius);
+	box-shadow: var(--BG_shadow);
+}
+.root-box::before {
+    content: '';
+    display: block;position: absolute;z-index: -1;top: 0;left: 0;right: 0;bottom: 0;
+    background-attachment: fixed;
+    -webkit-backdrop-filter: blur(var(--BG_blur));
+            backdrop-filter: blur(var(--BG_blur));
+}
+.header,.chakra-breadcrumb,.main-box,.readme-box,.footer{
+	margin: 0 !important;
+	border-radius: 0;
+	box-shadow: none;
+}
+.header{
+	border-radius: var(--BOR_Radius) var(--BOR_Radius) 0 0;
+}
+.footer{
+	height: 1em;
+	width: 100%;
+	border-radius: 0 0 var(--BOR_Radius) var(--BOR_Radius) !important;
+}
+.header,.readme-box,.chakra-breadcrumb,.main-box,.footer{
+	background: var(--BG_color_G);
+}
+.header,.chakra-breadcrumb,.footer{
+	background: var(--BG_color_T);
+}
+.chakra-icon{
+	fill: var(--Icon_color);
+}
+.list-item,.grid-item{
+	border-radius: var(--Item_radius);
+}
+.list-item:hover,.grid-item:hover{
+	background: var(--BG_color_ListItem_HOVER);
+	box-shadow: var(--BG_shadow_HOVER);
+}
