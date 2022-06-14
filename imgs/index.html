@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>待卿长安归の图床</title>
+	</head>
+	<body>
+		<div id="main">
+			<p id="title">待卿长安归の图床</p>
+			<img id="favicon" src="../header.png">
+			<div id="links">
+				<a class="linksBtn" onclick="()">我的主页</a>
+				<a class="linksBtn" onclick="()">备用①号</a>
+				<a class="linksBtn" onclick="()">备用②号</a>
+				<a class="linksBtn" onclick="()">图床地址</a>
+			</div>
+		</div>
+	</body>
+	<style>
+		:root {
+  			--wid1:400px;
+			
+		}
+		*{
+			padding: 0;
+			margin: 0;
+			/*border:solid red 0.1px;
+			*/
+		}
+		body{
+			height: 100%;
+			width: 100%;
+		}
+		#main{
+			
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			flex-direction: column;
+			height: 100%;
+			width: 100%;
+			
+		}
+		#title{
+			display: flex;
+			justify-content: center;
+			background: black;
+			color: white;
+			font-size: 2em;
+			font-weight: bolder;
+			width: var(--wid1);
+			padding: 24px;
+		}
+		#favicon{
+			cursor: pointer;
+			margin:0px 36px 0px 36px ;
+			width: var(--wid1);
+			transition: 0.7s;
+			border-radius: 50%;
+		}
+		#favicon:hover{
+			transform: rotate(360deg);
+		}
+		#links{
+			width:var(--wid1);
+			display: flex;
+			justify-content: space-between;
+		}
+
+		.linksBtn{
+			display: flex;
+			padding:4px;
+			font-weight: 2em;
+			margin:4px;
+			color:black;
+			font-weight: bold;
+			background: #ddd;
+			font-size: 1.2em;
+			cursor: pointer;
+			flex: 1;
+			align-items: center;
+			justify-content: center;
+			border-radius: 4px;
+			transition: 400ms;
+		}
+		.linksBtn:hover{
+			color: white;
+			background-color: black;
+		}
+	</style>
+</html>
