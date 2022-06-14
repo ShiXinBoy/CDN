@@ -19,12 +19,6 @@
     <br>
     Copyright © 2021 - 2023 思卿长安归 All Rights Reserved
 </center>
-<style>
-    ,div{
-        display:float;
-        bottom:0;
-        width:100%;
-    }
-</style>
+
 
 
