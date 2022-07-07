@@ -6,13 +6,19 @@
 
 |节点|Region|链接|备注|
 | - | - | - | - |
-| JsDeliver | 全球   | https://cdn.jsdelivr.net/gh/shixinboy/CDN@main/ |采用jsdeliverCDN加速，稳定 |
+| JsDeliver | 全球   | https://fastly.jsdelivr.net/gh/shixinboy/CDN@version/ |采用jsdeliverCDN加速，稳定 |
 | Vercel | 全球 | https://sxcdn.vercel.app/ | 自建vercel分发 |
 | Netlify | 全球 | https://sxcdn.netlify.app/ | 自建Netlify分发  |
 | Github | 外国| https://raw.githubusercontent.com/Shixinboy/CDN/main/ | Github原始文件地址 |
 | Github | 国内 | https://raw.githubusercontent.com/Shixinboy/CDN/main/ | 国内Github加速地址 |
 
+## 更新内容
+2022年7月7日：v2.2.0：
+> 添加live2d
+> 添加fa图标库
+
 ---
+
 
 <center class="div">
     Powered By <a href="https://shixin.vercel.app">思卿长安归</a>
